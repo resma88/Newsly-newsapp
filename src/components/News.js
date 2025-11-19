@@ -85,7 +85,8 @@ class News extends Component {
                   description={element.description ? element.description : ""}
                   imgUrl={  element.image   ? element.image : "https://www.bgr.com/img/gallery/iphone-17-sold-out-base-model-faces-longer-delays-than-the-pros/l-intro-1763130454.jpg" }
                   newsUrl={element.url}  
-                  publishedAt = {element.publishedAt}/>
+                  publishedAt = {element.publishedAt}
+                  source ={element.source.name}/>
               </div>
             );
           })}
